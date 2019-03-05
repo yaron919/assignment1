@@ -1,5 +1,5 @@
 body::after {
-    background: url(img/background.jpeg);
+   /*background: url(img/background.jpeg);*/
     content: "";
     opacity: 0.6;
     position: absolute;
@@ -13,4 +13,39 @@ body::after {
 .map{
     height: 100%;
     width: 30%;
+}
+/*.button_group{*/
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+/*}*/
+
+.yaron_header{
+    background: #007bff;
+    color: white;
+    width: 100%;
+margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+
+
+}
+
+.row{
+    text-align: center;
+    border-style: dotted;
+}
+.col-md{
+    text-align: center;
+    width: 50%;
+    border-style: dotted;
+}
+.col-sm{
+    text-align: center;
+    width: 50%;
+    border-style: dotted;
+}
+
+.alexandria{
+    width: 70%;
+    height: 70%;
 }

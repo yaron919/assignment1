@@ -2,32 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Wish list</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div align="center">
-        <h1>Places I would like to visit</h1>
-    </div>
-    <table cellspacing=20 align="center">
-        <tr>
-            <td><a href="egypt.html">Alexandria</a> </td>
-            <td><a href="kenya.html">Maasai Mara</a> </td>
-            <td><a href="namibia.html">Epupa Falls</a> </td>
-            <td><a href="mali.html">Sankore Madrasah</a> </td>
-            <td><a href="madagascar.html">Avenue of the Baobabs</a> </td>
-        </tr>
-    </table>
-    <div align="center">
-        <img src="img/map.png" usemap="#map" height="599" width="600" >
-        <map name="map">
-            <area shape="rect" coords="121,115,193,227" href="mali.html">
-            <area shape="rect" coords="352,56,435,133" href="egypt.html">
-            <area shape="rect" coords="499,400,550,514" href="madagascar.html">
-            <area shape="rect" coords="430,269,472,339" href="kenya.html">
-            <area shape="rect" coords="258,442,318,531" href="namibia.html">
-        </map>
+    <div class="container">
+
+
+        <div class="yaron_header wow fadeInUp" align="center">
+            <h1 >Places I would like to visit</h1>
+
+        <div class="button_group">
+            <a href="egypt.html"><button class="btn btn-outline-light"><h4>Alexandria</h4> </button></a>
+            <a href="namibia.html"><button class="btn btn-outline-light"><h4>Epupa Falls</h4> </button></a>
+            <a href="mali.html"><button class="btn btn-outline-light"><h4>Sankore Madrasah</h4> </button></a>
+            <a href="madagascar.html"><button class="btn btn-outline-light"><h4>Avenue of the Baobabs</h4> </button></a>
+            <a href="kenya.html"><button class="btn btn-outline-light"><h4>Maasai Mara</h4> </button></a>
+        </div>
+        </div>
+        <div align="center">
+            <img src="img/map.png" usemap="#map" height="599" width="600" >
+            <map name="map">
+                <area shape="rect" coords="121,115,193,227" href="mali.html">
+                <area shape="rect" coords="352,56,435,133" href="egypt.html">
+                <area shape="rect" coords="499,400,550,514" href="madagascar.html">
+                <area shape="rect" coords="430,269,472,339" href="kenya.html">
+                <area shape="rect" coords="258,442,318,531" href="namibia.html">
+            </map>
+        </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
